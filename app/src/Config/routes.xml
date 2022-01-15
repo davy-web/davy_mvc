@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<routes>
+    <route path="/" action="index" controller="FrontController"/>
+    <route path="article" action="article" controller="FrontController" params="id"/>
+    <route path="connexion" action="connexion" controller="FrontController"/>
+    <route path="inscription" action="inscription" controller="FrontController"/>
+    <route path="gestion" action="gestion" controller="FrontController"/>
+    <route path="modifier" action="modifier" controller="FrontController" params="id"/>
+    <route path="ajouter" action="ajouter" controller="FrontController"/>
+    <route path="supprimer" action="supprimer" controller="FrontController" params="id"/>
+    <route path="profil" action="profil" controller="FrontController" params="id"/>
+</routes>
